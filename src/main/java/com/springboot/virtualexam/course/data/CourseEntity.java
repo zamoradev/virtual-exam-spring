@@ -1,8 +1,8 @@
 package com.springboot.virtualexam.course.data;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.spring.apirestvirtualexam.virtualexam.section.data.SectionEntity;
 import com.springboot.virtualexam.degree.data.DegreeEntity;
+import com.springboot.virtualexam.section.data.SectionEntity;
 import com.springboot.virtualexam.subject.data.SubjectEntity;
 import com.springboot.virtualexam.teacher.data.TeacherEntity;
 import lombok.AllArgsConstructor;
