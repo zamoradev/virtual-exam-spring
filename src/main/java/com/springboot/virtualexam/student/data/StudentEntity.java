@@ -40,6 +40,9 @@ public class StudentEntity implements Serializable{
     @Column(name = "direccion", length = 200, nullable = false)
     private String address;
 
+    @Column(name = "correo_electronico", length = 75, nullable = false)
+    private String email;
+
     @JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "grado_id")

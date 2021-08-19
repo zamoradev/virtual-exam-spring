@@ -34,5 +34,12 @@ public class UserEntity implements Serializable {
     @JoinColumn(name = "rol_id")
     private RolEntity rol;
 
+    public UserEntity(String username, String password,  RolEntity rol){
+        this.username = username;
+        this.password = password;
+        this.enabled = true;
+        this.rol = rol;
+    }
+
     private static final long serialVersionUID = 1L;
 }
