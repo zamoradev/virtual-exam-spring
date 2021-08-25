@@ -2,7 +2,6 @@ package com.springboot.virtualexam.degree.rest;
 
 import com.springboot.virtualexam.degree.data.DegreeEntity;
 import com.springboot.virtualexam.degree.service.IDegreeService;
-import com.springboot.virtualexam.subject.data.SubjectEntity;
 import com.springboot.virtualexam.util.exception.BadRequestException;
 import com.springboot.virtualexam.util.responseApi.ResponseApi;
 import lombok.RequiredArgsConstructor;
