@@ -18,8 +18,12 @@ public class SectionEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "nombre", length = 20, unique = true, nullable = false)
-    private String name;
+    @Column(name = "nombre", unique = true, nullable = false)
+    private char name;
+
+    public void nameToUpperCase(){
+        this.name = Character.toUpperCase(name);
+    }
 
     private static final long serialVersionUID = 1L;
 }
